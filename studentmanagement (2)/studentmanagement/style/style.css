@@ -1,0 +1,175 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+	font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+
+.main{
+    align-items: center;
+    justify-content: space-around;
+	width: 100%;
+  	height: 300px;
+    background-size: 700px;
+	background-repeat: no-repeat;
+}
+.col-2 h1{
+	padding: 20px;
+    font-size: 50px;
+    margin: 25px 0;
+	color: black;
+}
+.col-2 p{
+	font-size: 15px;
+	padding: 20px;
+	color: black;
+}
+.btn{
+	margin-top: 20px;
+}
+.welcome_img
+{
+	width: 100%;
+	height: 250px;
+}
+.container{
+	margin-bottom: 70px;
+}
+.teacher
+{
+	width: 90%;
+	height: 200px;
+}
+
+.label_text
+{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+
+.input_deg
+{
+	width: 30%;
+	height: 40px;
+	border-radius: 25px;
+	border: 1px solid blue;
+	 
+}
+
+.adm_int
+{
+	padding-top: 10px;
+}
+
+.input_txt
+{
+	width: 30%;
+	height: 120px;
+	border-radius: 25px;
+	border: 1px solid blue;
+}
+
+#submit
+{
+	position: relative;
+	width: 15%;
+	left: 5%;
+}
+
+
+footer
+{
+	background-color: black;
+	height: 70px;
+	width: 100%;
+
+}
+
+
+.footer_text
+{
+	text-align: center;
+	color: white;
+	top: 20%;
+	position: relative;
+}
+
+.adm
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+.form_deg
+{
+	padding-top: 200px;
+}
+
+.label_deg
+{
+	display: inline-block;
+	color: skyblue;
+	width: 100px;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.login_form
+{
+	background-color: black;
+	width: 400px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.title_deg
+{
+	background-color: skyblue;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	width: 400px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+
+.body_deg
+{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
